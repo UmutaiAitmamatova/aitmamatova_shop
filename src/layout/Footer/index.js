@@ -1,9 +1,17 @@
 import React from 'react';
-import classes from './Footer.modul.scss'
+import classes from './Footer.module.scss';
+import Logo from '../../assets/img/logo.png';
+
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      <div className={classes.right}>
+          <div>
+            <img src={Logo} alt="Logo"/>
+          </div>
+      </div>
+    </footer>
   )
 }
 
