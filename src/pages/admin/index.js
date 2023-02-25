@@ -2,8 +2,10 @@ import React from 'react'
 
 function Admin() {
   return (
-    <div>Admin</div>
+    <div style={{minHeight: 'calc(100vh - 240px)'}}>
+      
+    </div>
   )
 }
 
-export default Admin
+export default Admin;

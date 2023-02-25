@@ -1,5 +1,20 @@
 footer{
     padding-top: 5px;
     background-color: #F3F3F3;
-    height: 150px;
+    height: 130px;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.icon{
+    color: #FF6B6B;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    font-size: 15px;
 }

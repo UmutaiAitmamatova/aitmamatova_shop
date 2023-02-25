@@ -1,0 +1,36 @@
+.goods{
+    width: 250px;
+    height: 300px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 8px #FF6B6B;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+}
+.favorite{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.icons{
+    color: #FF6B6B;
+    font-size: 24px;
+}
+.btn{
+    width: 90%;
+    border: none;
+    background-color: #FF6B6B;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}

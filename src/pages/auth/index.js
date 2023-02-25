@@ -2,7 +2,9 @@ import React from 'react'
 
 function Auth() {
   return (
-    <div>Auth</div>
+    <div style={{minHeight: 'calc(100vh - 240px)'}}>
+      Auth
+    </div>
   )
 }
 
