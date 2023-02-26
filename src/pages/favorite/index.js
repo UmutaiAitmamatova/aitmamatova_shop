@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import classes from './favorite.module.scss';
 
 function Favorite() {
   return (
-    <div style={{minHeight: 'calc(100vh - 240px)'}}>Favorite</div>
+    <div className={classes.favorite}>Favorite</div>
   )
 }
 

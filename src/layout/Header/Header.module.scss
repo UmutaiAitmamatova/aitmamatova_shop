@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0;
 }
+
 .top{
     height: 45px;
     display: flex;
@@ -50,12 +51,26 @@ p{
 .cart{
     font-size: 32px;
     padding-left: 10px;
+    text-decoration: none;
+    color: #484848;
 }
 .pages{
     display: flex;
     align-items: center; 
 }
-
+.links{
+    display: flex;
+}
+.links a{
+    padding-left: 10px;
+    color: #7C7C7C;
+    font-size: 17px; 
+    text-decoration: none;
+}
+.links a:hover{
+    color: #7C7C7C;
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 490px){
     .rigth{
