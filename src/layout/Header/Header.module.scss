@@ -22,6 +22,7 @@
     margin-left: 10px;
     padding-left: 10px;
     display: flex;
+    align-items: center;
 }
 .mail{
     font-size: 24px;
@@ -34,7 +35,7 @@
 }
 .person{
     color: #FF6B6B;
-    font-size: 24px;
+    font-size: 32px;
 }
 .bottom{
     display: flex;
@@ -72,6 +73,46 @@ p{
     text-decoration: underline;
 }
 
+.menu__btn{
+    display: none;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.menu__btn::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 25px;
+    height: 1px;
+    background-color: #FF6B6B;
+}
+.senond{
+    width: 25px;
+    height: 1.5px;
+    background-color: #FF6B6B;
+    top: 12.5px;
+    position: absolute;
+}
+.menu__btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 25px;
+    height: 1.5px;
+    background-color: #FF6B6B;
+}
+
+@media screen and (max-width: 790px){
+    .menu__btn{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+}
 @media screen and (max-width: 490px){
     .rigth{
         display: none;

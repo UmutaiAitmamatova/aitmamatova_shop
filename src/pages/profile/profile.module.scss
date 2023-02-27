@@ -1,0 +1,32 @@
+.profile{
+    min-height: calc(100vh - 240px);
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.block{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid rebeccapurple;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+
+}
+.info div{
+    padding-bottom: 15px;
+}

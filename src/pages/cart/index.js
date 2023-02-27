@@ -13,6 +13,9 @@ function Cart() {
             <CartsCard/>
             <CartsCard/>
             <CartsCard/>
+            <CartsCard/>
+            <CartsCard/>
+            <CartsCard/>
           </div>
         </div>
       </div>
