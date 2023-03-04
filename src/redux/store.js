@@ -1,13 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
-import authReducer from "./slices/auth";
-import messageReducer from "./slices/message";
-
-const reducer = {
-    auth: authReducer,
-    message: messageReducer
-}
+import { authApi } from "./api/authApi"
+import { logInApi } from './api/loginApi'
 
 export const store = configureStore({
-    reducer: reducer,
-    devTools: true,
-});
+  reducer: {
+    [authApi.reducerPath]: authApi.reducer,
+    [logInApi.reducerPath]: logInApi.reducer,
+  },
+})

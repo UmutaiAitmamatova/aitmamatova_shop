@@ -55,12 +55,12 @@ function Header() {
           </div>
         </div>
 
-        <Menu
+        {/* <Menu
           active={menuActive}
           setActive={setMenuActive}
           header={"Menu"}
           items={menu}
-        />
+        /> */}
       </div>
     </header>
   )
